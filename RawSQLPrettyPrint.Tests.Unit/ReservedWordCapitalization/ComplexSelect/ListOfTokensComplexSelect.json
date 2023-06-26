@@ -1,0 +1,1128 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Tokens": [
+      {
+        "Content": "WITH",
+        "Type": "ReservedKeyword",
+        "Start": 0,
+        "End": 4
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 4,
+        "End": 5
+      },
+      {
+        "Content": "cte",
+        "Type": "Identifier",
+        "Start": 5,
+        "End": 8
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 8,
+        "End": 9
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 9,
+        "End": 11
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 11,
+        "End": 12
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 12,
+        "End": 13
+      },
+      {
+        "Content": "SELECT",
+        "Type": "ReservedKeyword",
+        "Start": 13,
+        "End": 19
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 19,
+        "End": 20
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 20,
+        "End": 24
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 24,
+        "End": 25
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 25,
+        "End": 26
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 26,
+        "End": 30
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 30,
+        "End": 31
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 31,
+        "End": 32
+      },
+      {
+        "Content": "SUM",
+        "Type": "Identifier",
+        "Start": 32,
+        "End": 35
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 35,
+        "End": 36
+      },
+      {
+        "Content": "col3",
+        "Type": "Identifier",
+        "Start": 36,
+        "End": 40
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 40,
+        "End": 41
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 41,
+        "End": 42
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 42,
+        "End": 44
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 44,
+        "End": 45
+      },
+      {
+        "Content": "total",
+        "Type": "Identifier",
+        "Start": 45,
+        "End": 50
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 50,
+        "End": 51
+      },
+      {
+        "Content": "FROM",
+        "Type": "ReservedKeyword",
+        "Start": 51,
+        "End": 55
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 55,
+        "End": 56
+      },
+      {
+        "Content": "table1",
+        "Type": "Identifier",
+        "Start": 56,
+        "End": 62
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 62,
+        "End": 63
+      },
+      {
+        "Content": "WHERE",
+        "Type": "ReservedKeyword",
+        "Start": 63,
+        "End": 68
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 68,
+        "End": 69
+      },
+      {
+        "Content": "col4",
+        "Type": "Identifier",
+        "Start": 69,
+        "End": 73
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 73,
+        "End": 74
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 74,
+        "End": 75
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 75,
+        "End": 76
+      },
+      {
+        "Content": "'value'",
+        "Type": "Literal",
+        "Start": 76,
+        "End": 83
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 83,
+        "End": 84
+      },
+      {
+        "Content": "GROUP",
+        "Type": "ReservedKeyword",
+        "Start": 84,
+        "End": 89
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 89,
+        "End": 90
+      },
+      {
+        "Content": "BY",
+        "Type": "ReservedKeyword",
+        "Start": 90,
+        "End": 92
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 92,
+        "End": 93
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 93,
+        "End": 97
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 97,
+        "End": 98
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 98,
+        "End": 99
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 99,
+        "End": 103
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 103,
+        "End": 104
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 104,
+        "End": 105
+      },
+      {
+        "Content": "SELECT",
+        "Type": "ReservedKeyword",
+        "Start": 105,
+        "End": 111
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 111,
+        "End": 112
+      },
+      {
+        "Content": "t1",
+        "Type": "Identifier",
+        "Start": 112,
+        "End": 114
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 114,
+        "End": 115
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 115,
+        "End": 119
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 119,
+        "End": 120
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 120,
+        "End": 121
+      },
+      {
+        "Content": "t2",
+        "Type": "Identifier",
+        "Start": 121,
+        "End": 123
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 123,
+        "End": 124
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 124,
+        "End": 128
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 128,
+        "End": 129
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 129,
+        "End": 130
+      },
+      {
+        "Content": "t3",
+        "Type": "Identifier",
+        "Start": 130,
+        "End": 132
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 132,
+        "End": 133
+      },
+      {
+        "Content": "col3",
+        "Type": "Identifier",
+        "Start": 133,
+        "End": 137
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 137,
+        "End": 138
+      },
+      {
+        "Content": "FROM",
+        "Type": "ReservedKeyword",
+        "Start": 138,
+        "End": 142
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 142,
+        "End": 143
+      },
+      {
+        "Content": "cte",
+        "Type": "Identifier",
+        "Start": 143,
+        "End": 146
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 146,
+        "End": 147
+      },
+      {
+        "Content": "JOIN",
+        "Type": "ReservedKeyword",
+        "Start": 147,
+        "End": 151
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 151,
+        "End": 152
+      },
+      {
+        "Content": "table2",
+        "Type": "Identifier",
+        "Start": 152,
+        "End": 158
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 158,
+        "End": 159
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 159,
+        "End": 161
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 161,
+        "End": 162
+      },
+      {
+        "Content": "t1",
+        "Type": "Identifier",
+        "Start": 162,
+        "End": 164
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 164,
+        "End": 165
+      },
+      {
+        "Content": "ON",
+        "Type": "ReservedKeyword",
+        "Start": 165,
+        "End": 167
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 167,
+        "End": 168
+      },
+      {
+        "Content": "t1",
+        "Type": "Identifier",
+        "Start": 168,
+        "End": 170
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 170,
+        "End": 171
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 171,
+        "End": 175
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 175,
+        "End": 176
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 176,
+        "End": 177
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 177,
+        "End": 178
+      },
+      {
+        "Content": "cte",
+        "Type": "Identifier",
+        "Start": 178,
+        "End": 181
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 181,
+        "End": 182
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 182,
+        "End": 186
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 186,
+        "End": 187
+      },
+      {
+        "Content": "LEFT",
+        "Type": "ReservedKeyword",
+        "Start": 187,
+        "End": 191
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 191,
+        "End": 192
+      },
+      {
+        "Content": "JOIN",
+        "Type": "ReservedKeyword",
+        "Start": 192,
+        "End": 196
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 196,
+        "End": 197
+      },
+      {
+        "Content": "table3",
+        "Type": "Identifier",
+        "Start": 197,
+        "End": 203
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 203,
+        "End": 204
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 204,
+        "End": 206
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 206,
+        "End": 207
+      },
+      {
+        "Content": "t2",
+        "Type": "Identifier",
+        "Start": 207,
+        "End": 209
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 209,
+        "End": 210
+      },
+      {
+        "Content": "ON",
+        "Type": "ReservedKeyword",
+        "Start": 210,
+        "End": 212
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 212,
+        "End": 213
+      },
+      {
+        "Content": "t2",
+        "Type": "Identifier",
+        "Start": 213,
+        "End": 215
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 215,
+        "End": 216
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 216,
+        "End": 220
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 220,
+        "End": 221
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 221,
+        "End": 222
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 222,
+        "End": 223
+      },
+      {
+        "Content": "cte",
+        "Type": "Identifier",
+        "Start": 223,
+        "End": 226
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 226,
+        "End": 227
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 227,
+        "End": 231
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 231,
+        "End": 232
+      },
+      {
+        "Content": "RIGHT",
+        "Type": "ReservedKeyword",
+        "Start": 232,
+        "End": 237
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 237,
+        "End": 238
+      },
+      {
+        "Content": "JOIN",
+        "Type": "ReservedKeyword",
+        "Start": 238,
+        "End": 242
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 242,
+        "End": 243
+      },
+      {
+        "Content": "table4",
+        "Type": "Identifier",
+        "Start": 243,
+        "End": 249
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 249,
+        "End": 250
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 250,
+        "End": 252
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 252,
+        "End": 253
+      },
+      {
+        "Content": "t3",
+        "Type": "Identifier",
+        "Start": 253,
+        "End": 255
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 255,
+        "End": 256
+      },
+      {
+        "Content": "ON",
+        "Type": "ReservedKeyword",
+        "Start": 256,
+        "End": 258
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 258,
+        "End": 259
+      },
+      {
+        "Content": "t3",
+        "Type": "Identifier",
+        "Start": 259,
+        "End": 261
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 261,
+        "End": 262
+      },
+      {
+        "Content": "col3",
+        "Type": "Identifier",
+        "Start": 262,
+        "End": 266
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 266,
+        "End": 267
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 267,
+        "End": 268
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 268,
+        "End": 269
+      },
+      {
+        "Content": "cte",
+        "Type": "Identifier",
+        "Start": 269,
+        "End": 272
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 272,
+        "End": 273
+      },
+      {
+        "Content": "total",
+        "Type": "Identifier",
+        "Start": 273,
+        "End": 278
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 278,
+        "End": 279
+      },
+      {
+        "Content": "WHERE",
+        "Type": "ReservedKeyword",
+        "Start": 279,
+        "End": 284
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 284,
+        "End": 285
+      },
+      {
+        "Content": "t1",
+        "Type": "Identifier",
+        "Start": 285,
+        "End": 287
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 287,
+        "End": 288
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 288,
+        "End": 292
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 292,
+        "End": 293
+      },
+      {
+        "Content": ">",
+        "Type": "Operator",
+        "Start": 293,
+        "End": 294
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 294,
+        "End": 295
+      },
+      {
+        "Content": "100",
+        "Type": "Operator",
+        "Start": 295,
+        "End": 298
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 298,
+        "End": 299
+      },
+      {
+        "Content": "GROUP",
+        "Type": "ReservedKeyword",
+        "Start": 299,
+        "End": 304
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 304,
+        "End": 305
+      },
+      {
+        "Content": "BY",
+        "Type": "ReservedKeyword",
+        "Start": 305,
+        "End": 307
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 307,
+        "End": 308
+      },
+      {
+        "Content": "t1",
+        "Type": "Identifier",
+        "Start": 308,
+        "End": 310
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 310,
+        "End": 311
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 311,
+        "End": 315
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 315,
+        "End": 316
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 316,
+        "End": 317
+      },
+      {
+        "Content": "t2",
+        "Type": "Identifier",
+        "Start": 317,
+        "End": 319
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 319,
+        "End": 320
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 320,
+        "End": 324
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 324,
+        "End": 325
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 325,
+        "End": 326
+      },
+      {
+        "Content": "t3",
+        "Type": "Identifier",
+        "Start": 326,
+        "End": 328
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 328,
+        "End": 329
+      },
+      {
+        "Content": "col3",
+        "Type": "Identifier",
+        "Start": 329,
+        "End": 333
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 333,
+        "End": 334
+      },
+      {
+        "Content": "HAVING",
+        "Type": "ReservedKeyword",
+        "Start": 334,
+        "End": 340
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 340,
+        "End": 341
+      },
+      {
+        "Content": "COUNT",
+        "Type": "Identifier",
+        "Start": 341,
+        "End": 346
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 346,
+        "End": 347
+      },
+      {
+        "Content": "*",
+        "Type": "Operator",
+        "Start": 347,
+        "End": 348
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 348,
+        "End": 349
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 349,
+        "End": 350
+      },
+      {
+        "Content": ">",
+        "Type": "Operator",
+        "Start": 350,
+        "End": 351
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 351,
+        "End": 352
+      },
+      {
+        "Content": "5",
+        "Type": "Operator",
+        "Start": 352,
+        "End": 353
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 353,
+        "End": 354
+      },
+      {
+        "Content": "ORDER",
+        "Type": "ReservedKeyword",
+        "Start": 354,
+        "End": 359
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 359,
+        "End": 360
+      },
+      {
+        "Content": "BY",
+        "Type": "ReservedKeyword",
+        "Start": 360,
+        "End": 362
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 362,
+        "End": 363
+      },
+      {
+        "Content": "t1",
+        "Type": "Identifier",
+        "Start": 363,
+        "End": 365
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 365,
+        "End": 366
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 366,
+        "End": 370
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 370,
+        "End": 371
+      },
+      {
+        "Content": "DESC",
+        "Type": "ReservedKeyword",
+        "Start": 371,
+        "End": 375
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 375,
+        "End": 376
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 376,
+        "End": 377
+      },
+      {
+        "Content": "t2",
+        "Type": "Identifier",
+        "Start": 377,
+        "End": 379
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 379,
+        "End": 380
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 380,
+        "End": 384
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 384,
+        "End": 385
+      },
+      {
+        "Content": "ASC",
+        "Type": "ReservedKeyword",
+        "Start": 385,
+        "End": 388
+      },
+      {
+        "Content": ";",
+        "Type": "Semicolon",
+        "Start": 388,
+        "End": 389
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

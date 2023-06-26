@@ -1,0 +1,180 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Nodes": [
+      {
+        "Name": "SelectStatement",
+        "Type": "Statement",
+        "Start": 0,
+        "End": 49,
+        "Children": [
+          {
+            "Name": "Subquery",
+            "Type": "Expression",
+            "Start": 0,
+            "End": 48,
+            "Children": [
+              {
+                "Name": "QueryExpression",
+                "Type": "Expression",
+                "Start": 0,
+                "End": 48,
+                "Children": [
+                  {
+                    "Name": "QuerySpecification",
+                    "Type": "Clause",
+                    "Start": 0,
+                    "End": 48,
+                    "Children": [
+                      {
+                        "Name": "FromClause",
+                        "Type": "Clause",
+                        "Start": 12,
+                        "End": 48,
+                        "Children": [
+                          {
+                            "Name": "TableSource",
+                            "Type": "Clause",
+                            "Start": 17,
+                            "End": 48,
+                            "Children": [
+                              {
+                                "Name": "DerivedTable",
+                                "Type": "Clause",
+                                "Start": 17,
+                                "End": 48,
+                                "Children": [
+                                  {
+                                    "Name": "Subquery",
+                                    "Type": "Expression",
+                                    "Start": 18,
+                                    "End": 41,
+                                    "Children": [
+                                      {
+                                        "Name": "QueryExpression",
+                                        "Type": "Expression",
+                                        "Start": 18,
+                                        "End": 41,
+                                        "Children": [
+                                          {
+                                            "Name": "QuerySpecification",
+                                            "Type": "Clause",
+                                            "Start": 18,
+                                            "End": 41,
+                                            "Children": [
+                                              {
+                                                "Name": "FromClause",
+                                                "Type": "Clause",
+                                                "Start": 30,
+                                                "End": 41,
+                                                "Children": [
+                                                  {
+                                                    "Name": "TableSource",
+                                                    "Type": "Clause",
+                                                    "Start": 35,
+                                                    "End": 41,
+                                                    "Children": [
+                                                      {
+                                                        "Name": "TableNameAlias",
+                                                        "Type": "Clause",
+                                                        "Start": 35,
+                                                        "End": 41,
+                                                        "Children": [
+                                                          {
+                                                            "Value": "table1",
+                                                            "Name": "FullName",
+                                                            "Type": "Name",
+                                                            "Start": 35,
+                                                            "End": 41,
+                                                            "Children": []
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "Name": "SelectList",
+                                                "Type": "Clause",
+                                                "Start": 25,
+                                                "End": 29,
+                                                "Children": [
+                                                  {
+                                                    "Name": "SelectListItem",
+                                                    "Type": "Clause",
+                                                    "Start": 25,
+                                                    "End": 29,
+                                                    "Children": [
+                                                      {
+                                                        "Value": "col2",
+                                                        "Name": "FullName",
+                                                        "Type": "Name",
+                                                        "Start": 25,
+                                                        "End": 29,
+                                                        "Children": []
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Value": "t1",
+                                    "Name": "Identifier",
+                                    "Type": "Name",
+                                    "Start": 46,
+                                    "End": 48,
+                                    "Children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "SelectList",
+                        "Type": "Clause",
+                        "Start": 7,
+                        "End": 11,
+                        "Children": [
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 7,
+                            "End": 11,
+                            "Children": [
+                              {
+                                "Value": "col1",
+                                "Name": "FullName",
+                                "Type": "Name",
+                                "Start": 7,
+                                "End": 11,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

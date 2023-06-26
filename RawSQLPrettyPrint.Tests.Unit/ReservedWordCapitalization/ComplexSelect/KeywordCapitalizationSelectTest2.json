@@ -1,0 +1,750 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Nodes": [
+      {
+        "Name": "SelectStatement",
+        "Type": "Statement",
+        "Start": 0,
+        "End": 389,
+        "Children": [
+          {
+            "Name": "WithClause",
+            "Type": "Clause",
+            "Start": 0,
+            "End": 104,
+            "Children": [
+              {
+                "Name": "Cte",
+                "Type": "Clause",
+                "Start": 5,
+                "End": 104,
+                "Children": [
+                  {
+                    "Value": "cte",
+                    "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                    "Type": "Name",
+                    "Start": 5,
+                    "End": 8,
+                    "Children": []
+                  },
+                  {
+                    "Name": "Subquery",
+                    "Type": "Expression",
+                    "Start": 13,
+                    "End": 103,
+                    "Children": [
+                      {
+                        "Name": "QueryExpression",
+                        "Type": "Expression",
+                        "Start": 13,
+                        "End": 103,
+                        "Children": [
+                          {
+                            "Name": "QuerySpecification",
+                            "Type": "Clause",
+                            "Start": 13,
+                            "End": 103,
+                            "Children": [
+                              {
+                                "Name": "FromClause",
+                                "Type": "Clause",
+                                "Start": 51,
+                                "End": 62,
+                                "Children": [
+                                  {
+                                    "Name": "TableSource",
+                                    "Type": "Clause",
+                                    "Start": 56,
+                                    "End": 62,
+                                    "Children": [
+                                      {
+                                        "Name": "TableNameAlias",
+                                        "Type": "Clause",
+                                        "Start": 56,
+                                        "End": 62,
+                                        "Children": [
+                                          {
+                                            "Value": "table1",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 56,
+                                            "End": 62,
+                                            "Children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Name": "SelectList",
+                                "Type": "Clause",
+                                "Start": 20,
+                                "End": 50,
+                                "Children": [
+                                  {
+                                    "Name": "SelectListItem",
+                                    "Type": "Clause",
+                                    "Start": 20,
+                                    "End": 24,
+                                    "Children": [
+                                      {
+                                        "Value": "col1",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 20,
+                                        "End": 24,
+                                        "Children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "SelectListItem",
+                                    "Type": "Clause",
+                                    "Start": 26,
+                                    "End": 30,
+                                    "Children": [
+                                      {
+                                        "Value": "col2",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 26,
+                                        "End": 30,
+                                        "Children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "SelectListItem",
+                                    "Type": "Clause",
+                                    "Start": 32,
+                                    "End": 50,
+                                    "Children": [
+                                      {
+                                        "Name": "SumFunction",
+                                        "Type": "Expression",
+                                        "Start": 32,
+                                        "End": 41,
+                                        "Children": [
+                                          {
+                                            "Value": "col3",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 36,
+                                            "End": 40,
+                                            "Children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "Value": "total",
+                                        "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                                        "Type": "Name",
+                                        "Start": 45,
+                                        "End": 50,
+                                        "Children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Name": "WhereClause",
+                                "Type": "Clause",
+                                "Start": 63,
+                                "End": 83,
+                                "Children": [
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 69,
+                                    "End": 83,
+                                    "Children": [
+                                      {
+                                        "Value": "col4",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 69,
+                                        "End": 73,
+                                        "Children": []
+                                      },
+                                      {
+                                        "Name": "StringLiteral",
+                                        "Type": "Expression",
+                                        "Start": 76,
+                                        "End": 83,
+                                        "Children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Name": "GroupByClause",
+                                "Type": "Clause",
+                                "Start": 84,
+                                "End": 103,
+                                "Children": [
+                                  {
+                                    "Name": "GroupByClauseItem",
+                                    "Type": "Clause",
+                                    "Start": 93,
+                                    "End": 97,
+                                    "Children": [
+                                      {
+                                        "Value": "col1",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 93,
+                                        "End": 97,
+                                        "Children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "GroupByClauseItem",
+                                    "Type": "Clause",
+                                    "Start": 99,
+                                    "End": 103,
+                                    "Children": [
+                                      {
+                                        "Value": "col2",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 99,
+                                        "End": 103,
+                                        "Children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Name": "Subquery",
+            "Type": "Expression",
+            "Start": 105,
+            "End": 388,
+            "Children": [
+              {
+                "Name": "QueryExpression",
+                "Type": "Expression",
+                "Start": 105,
+                "End": 353,
+                "Children": [
+                  {
+                    "Name": "QuerySpecification",
+                    "Type": "Clause",
+                    "Start": 105,
+                    "End": 353,
+                    "Children": [
+                      {
+                        "Name": "FromClause",
+                        "Type": "Clause",
+                        "Start": 138,
+                        "End": 278,
+                        "Children": [
+                          {
+                            "Name": "TableSource",
+                            "Type": "Clause",
+                            "Start": 143,
+                            "End": 278,
+                            "Children": [
+                              {
+                                "Name": "JoinedTable",
+                                "Type": "Clause",
+                                "Start": 143,
+                                "End": 209,
+                                "Children": [
+                                  {
+                                    "Name": "TableSource",
+                                    "Type": "Clause",
+                                    "Start": 143,
+                                    "End": 209,
+                                    "Children": [
+                                      {
+                                        "Name": "JoinedTable",
+                                        "Type": "Clause",
+                                        "Start": 143,
+                                        "End": 164,
+                                        "Children": [
+                                          {
+                                            "Name": "TableSource",
+                                            "Type": "Clause",
+                                            "Start": 143,
+                                            "End": 164,
+                                            "Children": [
+                                              {
+                                                "Name": "JoinedTable",
+                                                "Type": "Clause",
+                                                "Start": 143,
+                                                "End": 146,
+                                                "Children": [
+                                                  {
+                                                    "Name": "TableSource",
+                                                    "Type": "Clause",
+                                                    "Start": 143,
+                                                    "End": 146,
+                                                    "Children": [
+                                                      {
+                                                        "Name": "TableNameAlias",
+                                                        "Type": "Clause",
+                                                        "Start": 143,
+                                                        "End": 146,
+                                                        "Children": [
+                                                          {
+                                                            "Value": "cte",
+                                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                            "Type": "Name",
+                                                            "Start": 143,
+                                                            "End": 146,
+                                                            "Children": []
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "Name": "TableSource",
+                                                    "Type": "Clause",
+                                                    "Start": 152,
+                                                    "End": 164,
+                                                    "Children": [
+                                                      {
+                                                        "Name": "TableNameAlias",
+                                                        "Type": "Clause",
+                                                        "Start": 152,
+                                                        "End": 164,
+                                                        "Children": [
+                                                          {
+                                                            "Value": "table2",
+                                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                            "Type": "Name",
+                                                            "Start": 152,
+                                                            "End": 158,
+                                                            "Children": []
+                                                          },
+                                                          {
+                                                            "Value": "t1",
+                                                            "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                                                            "Type": "Name",
+                                                            "Start": 162,
+                                                            "End": 164,
+                                                            "Children": []
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "Name": "TableJoin",
+                                                    "Type": "Clause",
+                                                    "Start": 147,
+                                                    "End": 151,
+                                                    "Children": []
+                                                  },
+                                                  {
+                                                    "Name": "",
+                                                    "Type": "Expression",
+                                                    "Start": 168,
+                                                    "End": 186,
+                                                    "Children": [
+                                                      {
+                                                        "Value": "t1.col1",
+                                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                        "Type": "Name",
+                                                        "Start": 168,
+                                                        "End": 175,
+                                                        "Children": []
+                                                      },
+                                                      {
+                                                        "Value": "cte.col1",
+                                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                        "Type": "Name",
+                                                        "Start": 178,
+                                                        "End": 186,
+                                                        "Children": []
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "Name": "TableSource",
+                                            "Type": "Clause",
+                                            "Start": 197,
+                                            "End": 209,
+                                            "Children": [
+                                              {
+                                                "Name": "TableNameAlias",
+                                                "Type": "Clause",
+                                                "Start": 197,
+                                                "End": 209,
+                                                "Children": [
+                                                  {
+                                                    "Value": "table3",
+                                                    "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                    "Type": "Name",
+                                                    "Start": 197,
+                                                    "End": 203,
+                                                    "Children": []
+                                                  },
+                                                  {
+                                                    "Value": "t2",
+                                                    "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                                                    "Type": "Name",
+                                                    "Start": 207,
+                                                    "End": 209,
+                                                    "Children": []
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "Name": "TableJoin",
+                                            "Type": "Clause",
+                                            "Start": 187,
+                                            "End": 196,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "",
+                                            "Type": "Expression",
+                                            "Start": 213,
+                                            "End": 231,
+                                            "Children": [
+                                              {
+                                                "Value": "t2.col2",
+                                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                "Type": "Name",
+                                                "Start": 213,
+                                                "End": 220,
+                                                "Children": []
+                                              },
+                                              {
+                                                "Value": "cte.col2",
+                                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                "Type": "Name",
+                                                "Start": 223,
+                                                "End": 231,
+                                                "Children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "TableSource",
+                                    "Type": "Clause",
+                                    "Start": 243,
+                                    "End": 255,
+                                    "Children": [
+                                      {
+                                        "Name": "TableNameAlias",
+                                        "Type": "Clause",
+                                        "Start": 243,
+                                        "End": 255,
+                                        "Children": [
+                                          {
+                                            "Value": "table4",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 243,
+                                            "End": 249,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Value": "t3",
+                                            "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                                            "Type": "Name",
+                                            "Start": 253,
+                                            "End": 255,
+                                            "Children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "TableJoin",
+                                    "Type": "Clause",
+                                    "Start": 232,
+                                    "End": 242,
+                                    "Children": []
+                                  },
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 259,
+                                    "End": 278,
+                                    "Children": [
+                                      {
+                                        "Value": "t3.col3",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 259,
+                                        "End": 266,
+                                        "Children": []
+                                      },
+                                      {
+                                        "Value": "cte.total",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 269,
+                                        "End": 278,
+                                        "Children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "SelectList",
+                        "Type": "Clause",
+                        "Start": 112,
+                        "End": 137,
+                        "Children": [
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 112,
+                            "End": 119,
+                            "Children": [
+                              {
+                                "Value": "t1.col1",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 112,
+                                "End": 119,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 121,
+                            "End": 128,
+                            "Children": [
+                              {
+                                "Value": "t2.col2",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 121,
+                                "End": 128,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 130,
+                            "End": 137,
+                            "Children": [
+                              {
+                                "Value": "t3.col3",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 130,
+                                "End": 137,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "WhereClause",
+                        "Type": "Clause",
+                        "Start": 279,
+                        "End": 298,
+                        "Children": [
+                          {
+                            "Name": "",
+                            "Type": "Expression",
+                            "Start": 285,
+                            "End": 298,
+                            "Children": [
+                              {
+                                "Value": "t1.col1",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 285,
+                                "End": 292,
+                                "Children": []
+                              },
+                              {
+                                "Name": "IntegerLiteral",
+                                "Type": "Expression",
+                                "Start": 295,
+                                "End": 298,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "GroupByClause",
+                        "Type": "Clause",
+                        "Start": 299,
+                        "End": 333,
+                        "Children": [
+                          {
+                            "Name": "GroupByClauseItem",
+                            "Type": "Clause",
+                            "Start": 308,
+                            "End": 315,
+                            "Children": [
+                              {
+                                "Value": "t1.col1",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 308,
+                                "End": 315,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "GroupByClauseItem",
+                            "Type": "Clause",
+                            "Start": 317,
+                            "End": 324,
+                            "Children": [
+                              {
+                                "Value": "t2.col2",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 317,
+                                "End": 324,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "GroupByClauseItem",
+                            "Type": "Clause",
+                            "Start": 326,
+                            "End": 333,
+                            "Children": [
+                              {
+                                "Value": "t3.col3",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 326,
+                                "End": 333,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "",
+                        "Type": "Expression",
+                        "Start": 341,
+                        "End": 353,
+                        "Children": [
+                          {
+                            "Name": "CountFunction",
+                            "Type": "Expression",
+                            "Start": 341,
+                            "End": 349,
+                            "Children": [
+                              {
+                                "Value": "*",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 347,
+                                "End": 348,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "IntegerLiteral",
+                            "Type": "Expression",
+                            "Start": 352,
+                            "End": 353,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Name": "OrderByClause",
+                "Type": "Clause",
+                "Start": 354,
+                "End": 388,
+                "Children": [
+                  {
+                    "Name": "OrderByClauseItem",
+                    "Type": "Clause",
+                    "Start": 363,
+                    "End": 375,
+                    "Children": [
+                      {
+                        "Value": "t1.col1",
+                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                        "Type": "Name",
+                        "Start": 363,
+                        "End": 370,
+                        "Children": []
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "OrderByClauseItem",
+                    "Type": "Clause",
+                    "Start": 377,
+                    "End": 388,
+                    "Children": [
+                      {
+                        "Value": "t2.col2",
+                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                        "Type": "Name",
+                        "Start": 377,
+                        "End": 384,
+                        "Children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

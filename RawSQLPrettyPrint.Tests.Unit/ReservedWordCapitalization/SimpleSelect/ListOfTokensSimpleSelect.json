@@ -1,0 +1,156 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Tokens": [
+      {
+        "Content": "select",
+        "Type": "ReservedKeyword",
+        "Start": 0,
+        "End": 6
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 6,
+        "End": 7
+      },
+      {
+        "Content": "*",
+        "Type": "Operator",
+        "Start": 7,
+        "End": 8
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 8,
+        "End": 9
+      },
+      {
+        "Content": "from",
+        "Type": "ReservedKeyword",
+        "Start": 9,
+        "End": 13
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 13,
+        "End": 14
+      },
+      {
+        "Content": "x",
+        "Type": "Identifier",
+        "Start": 14,
+        "End": 15
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 15,
+        "End": 16
+      },
+      {
+        "Content": "where",
+        "Type": "ReservedKeyword",
+        "Start": 16,
+        "End": 21
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 21,
+        "End": 22
+      },
+      {
+        "Content": "a",
+        "Type": "Identifier",
+        "Start": 22,
+        "End": 23
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 23,
+        "End": 24
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 24,
+        "End": 25
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 25,
+        "End": 26
+      },
+      {
+        "Content": "'robert'",
+        "Type": "Literal",
+        "Start": 26,
+        "End": 34
+      },
+      {
+        "Content": ";",
+        "Type": "Semicolon",
+        "Start": 34,
+        "End": 35
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 35,
+        "End": 36
+      },
+      {
+        "Content": "drop",
+        "Type": "ReservedKeyword",
+        "Start": 36,
+        "End": 40
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 40,
+        "End": 41
+      },
+      {
+        "Content": "table",
+        "Type": "ReservedKeyword",
+        "Start": 41,
+        "End": 46
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 46,
+        "End": 47
+      },
+      {
+        "Content": "students",
+        "Type": "Identifier",
+        "Start": 47,
+        "End": 55
+      },
+      {
+        "Content": ";",
+        "Type": "Semicolon",
+        "Start": 55,
+        "End": 56
+      },
+      {
+        "Content": "-- 'smith);",
+        "Type": "Comment",
+        "Start": 56,
+        "End": 67
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

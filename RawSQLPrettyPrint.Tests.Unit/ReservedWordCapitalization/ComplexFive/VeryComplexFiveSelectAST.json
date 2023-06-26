@@ -1,0 +1,228 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Nodes": [
+      {
+        "Name": "SelectStatement",
+        "Type": "Statement",
+        "Start": 0,
+        "End": 79,
+        "Children": [
+          {
+            "Name": "Subquery",
+            "Type": "Expression",
+            "Start": 0,
+            "End": 78,
+            "Children": [
+              {
+                "Name": "QueryExpression",
+                "Type": "Expression",
+                "Start": 0,
+                "End": 78,
+                "Children": [
+                  {
+                    "Name": "QuerySpecification",
+                    "Type": "Clause",
+                    "Start": 0,
+                    "End": 78,
+                    "Children": [
+                      {
+                        "Name": "FromClause",
+                        "Type": "Clause",
+                        "Start": 67,
+                        "End": 78,
+                        "Children": [
+                          {
+                            "Name": "TableSource",
+                            "Type": "Clause",
+                            "Start": 72,
+                            "End": 78,
+                            "Children": [
+                              {
+                                "Name": "TableNameAlias",
+                                "Type": "Clause",
+                                "Start": 72,
+                                "End": 78,
+                                "Children": [
+                                  {
+                                    "Value": "table1",
+                                    "Name": "FullName",
+                                    "Type": "Name",
+                                    "Start": 72,
+                                    "End": 78,
+                                    "Children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "SelectList",
+                        "Type": "Clause",
+                        "Start": 7,
+                        "End": 66,
+                        "Children": [
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 7,
+                            "End": 66,
+                            "Children": [
+                              {
+                                "Name": "ParenthesizedExpression",
+                                "Type": "Expression",
+                                "Start": 7,
+                                "End": 56,
+                                "Children": [
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 8,
+                                    "End": 55,
+                                    "Children": [
+                                      {
+                                        "Name": "ParenthesizedExpression",
+                                        "Type": "Expression",
+                                        "Start": 8,
+                                        "End": 30,
+                                        "Children": [
+                                          {
+                                            "Name": "",
+                                            "Type": "Expression",
+                                            "Start": 9,
+                                            "End": 29,
+                                            "Children": [
+                                              {
+                                                "Value": "col1",
+                                                "Name": "FullName",
+                                                "Type": "Name",
+                                                "Start": 9,
+                                                "End": 13,
+                                                "Children": []
+                                              },
+                                              {
+                                                "Name": "ParenthesizedExpression",
+                                                "Type": "Expression",
+                                                "Start": 16,
+                                                "End": 29,
+                                                "Children": [
+                                                  {
+                                                    "Name": "",
+                                                    "Type": "Expression",
+                                                    "Start": 17,
+                                                    "End": 28,
+                                                    "Children": [
+                                                      {
+                                                        "Value": "col2",
+                                                        "Name": "FullName",
+                                                        "Type": "Name",
+                                                        "Start": 17,
+                                                        "End": 21,
+                                                        "Children": []
+                                                      },
+                                                      {
+                                                        "Value": "col3",
+                                                        "Name": "FullName",
+                                                        "Type": "Name",
+                                                        "Start": 24,
+                                                        "End": 28,
+                                                        "Children": []
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "Name": "ParenthesizedExpression",
+                                        "Type": "Expression",
+                                        "Start": 33,
+                                        "End": 55,
+                                        "Children": [
+                                          {
+                                            "Name": "",
+                                            "Type": "Expression",
+                                            "Start": 34,
+                                            "End": 54,
+                                            "Children": [
+                                              {
+                                                "Name": "ParenthesizedExpression",
+                                                "Type": "Expression",
+                                                "Start": 34,
+                                                "End": 47,
+                                                "Children": [
+                                                  {
+                                                    "Name": "",
+                                                    "Type": "Expression",
+                                                    "Start": 35,
+                                                    "End": 46,
+                                                    "Children": [
+                                                      {
+                                                        "Value": "col4",
+                                                        "Name": "FullName",
+                                                        "Type": "Name",
+                                                        "Start": 35,
+                                                        "End": 39,
+                                                        "Children": []
+                                                      },
+                                                      {
+                                                        "Value": "col5",
+                                                        "Name": "FullName",
+                                                        "Type": "Name",
+                                                        "Start": 42,
+                                                        "End": 46,
+                                                        "Children": []
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "Value": "col6",
+                                                "Name": "FullName",
+                                                "Type": "Name",
+                                                "Start": 50,
+                                                "End": 54,
+                                                "Children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Value": "Result",
+                                "Name": "Identifier",
+                                "Type": "Name",
+                                "Start": 60,
+                                "End": 66,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

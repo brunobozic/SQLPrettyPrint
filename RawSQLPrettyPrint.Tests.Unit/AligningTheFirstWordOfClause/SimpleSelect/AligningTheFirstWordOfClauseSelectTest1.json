@@ -1,0 +1,139 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Nodes": [
+      {
+        "Name": "SelectStatement",
+        "Type": "Statement",
+        "Start": 0,
+        "End": 58,
+        "Children": [
+          {
+            "Name": "Subquery",
+            "Type": "Expression",
+            "Start": 0,
+            "End": 57,
+            "Children": [
+              {
+                "Name": "QueryExpression",
+                "Type": "Expression",
+                "Start": 0,
+                "End": 57,
+                "Children": [
+                  {
+                    "Name": "QuerySpecification",
+                    "Type": "Clause",
+                    "Start": 0,
+                    "End": 57,
+                    "Children": [
+                      {
+                        "Name": "FromClause",
+                        "Type": "Clause",
+                        "Start": 15,
+                        "End": 33,
+                        "Children": [
+                          {
+                            "Name": "TableSource",
+                            "Type": "Clause",
+                            "Start": 20,
+                            "End": 33,
+                            "Children": [
+                              {
+                                "Name": "TableNameAlias",
+                                "Type": "Clause",
+                                "Start": 20,
+                                "End": 33,
+                                "Children": [
+                                  {
+                                    "Value": "my_staff_size",
+                                    "Name": "FullName",
+                                    "Type": "Name",
+                                    "Start": 20,
+                                    "End": 33,
+                                    "Children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "SelectList",
+                        "Type": "Clause",
+                        "Start": 7,
+                        "End": 14,
+                        "Children": [
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 7,
+                            "End": 14,
+                            "Children": [
+                              {
+                                "Name": "MaxFunction",
+                                "Type": "Expression",
+                                "Start": 7,
+                                "End": 14,
+                                "Children": [
+                                  {
+                                    "Value": "q4",
+                                    "Name": "FullName",
+                                    "Type": "Name",
+                                    "Start": 11,
+                                    "End": 13,
+                                    "Children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "WhereClause",
+                        "Type": "Clause",
+                        "Start": 34,
+                        "End": 57,
+                        "Children": [
+                          {
+                            "Name": "",
+                            "Type": "Expression",
+                            "Start": 40,
+                            "End": 57,
+                            "Children": [
+                              {
+                                "Value": "username",
+                                "Name": "FullName",
+                                "Type": "Name",
+                                "Start": 40,
+                                "End": 48,
+                                "Children": []
+                              },
+                              {
+                                "Name": "StringLiteral",
+                                "Type": "Expression",
+                                "Start": 51,
+                                "End": 57,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

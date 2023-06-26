@@ -1,0 +1,222 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Tokens": [
+      {
+        "Content": "SELECT",
+        "Type": "ReservedKeyword",
+        "Start": 0,
+        "End": 6
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 6,
+        "End": 7
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 7,
+        "End": 8
+      },
+      {
+        "Content": "COUNT",
+        "Type": "Identifier",
+        "Start": 8,
+        "End": 13
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 13,
+        "End": 14
+      },
+      {
+        "Content": "DISTINCT",
+        "Type": "ReservedKeyword",
+        "Start": 14,
+        "End": 22
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 22,
+        "End": 23
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 23,
+        "End": 27
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 27,
+        "End": 28
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 28,
+        "End": 29
+      },
+      {
+        "Content": "/",
+        "Type": "Operator",
+        "Start": 29,
+        "End": 30
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 30,
+        "End": 31
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 31,
+        "End": 32
+      },
+      {
+        "Content": "SUM",
+        "Type": "Identifier",
+        "Start": 32,
+        "End": 35
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 35,
+        "End": 36
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 36,
+        "End": 40
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 40,
+        "End": 41
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 41,
+        "End": 42
+      },
+      {
+        "Content": "+",
+        "Type": "Operator",
+        "Start": 42,
+        "End": 43
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 43,
+        "End": 44
+      },
+      {
+        "Content": "AVG",
+        "Type": "Identifier",
+        "Start": 44,
+        "End": 47
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 47,
+        "End": 48
+      },
+      {
+        "Content": "col3",
+        "Type": "Identifier",
+        "Start": 48,
+        "End": 52
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 52,
+        "End": 53
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 53,
+        "End": 54
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 54,
+        "End": 55
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 55,
+        "End": 56
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 56,
+        "End": 58
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 58,
+        "End": 59
+      },
+      {
+        "Content": "Result",
+        "Type": "NonReservedKeyword",
+        "Start": 59,
+        "End": 65
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 65,
+        "End": 66
+      },
+      {
+        "Content": "FROM",
+        "Type": "ReservedKeyword",
+        "Start": 66,
+        "End": 70
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 70,
+        "End": 71
+      },
+      {
+        "Content": "table1",
+        "Type": "Identifier",
+        "Start": 71,
+        "End": 77
+      },
+      {
+        "Content": ";",
+        "Type": "Semicolon",
+        "Start": 77,
+        "End": 78
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

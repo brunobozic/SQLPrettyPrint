@@ -1,0 +1,263 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Nodes": [
+      {
+        "Name": "SelectStatement",
+        "Type": "Statement",
+        "Start": 0,
+        "End": 96,
+        "Children": [
+          {
+            "Name": "Subquery",
+            "Type": "Expression",
+            "Start": 0,
+            "End": 95,
+            "Children": [
+              {
+                "Name": "QueryExpression",
+                "Type": "Expression",
+                "Start": 0,
+                "End": 95,
+                "Children": [
+                  {
+                    "Name": "QuerySpecification",
+                    "Type": "Clause",
+                    "Start": 0,
+                    "End": 95,
+                    "Children": [
+                      {
+                        "Name": "FromClause",
+                        "Type": "Clause",
+                        "Start": 84,
+                        "End": 95,
+                        "Children": [
+                          {
+                            "Name": "TableSource",
+                            "Type": "Clause",
+                            "Start": 89,
+                            "End": 95,
+                            "Children": [
+                              {
+                                "Name": "TableNameAlias",
+                                "Type": "Clause",
+                                "Start": 89,
+                                "End": 95,
+                                "Children": [
+                                  {
+                                    "Value": "table1",
+                                    "Name": "FullName",
+                                    "Type": "Name",
+                                    "Start": 89,
+                                    "End": 95,
+                                    "Children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "SelectList",
+                        "Type": "Clause",
+                        "Start": 7,
+                        "End": 83,
+                        "Children": [
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 7,
+                            "End": 83,
+                            "Children": [
+                              {
+                                "Name": "FunctionExpression",
+                                "Type": "Expression",
+                                "Start": 7,
+                                "End": 73,
+                                "Children": [
+                                  {
+                                    "Value": "CONCAT",
+                                    "Name": "FullName",
+                                    "Type": "Name",
+                                    "Start": 7,
+                                    "End": 13,
+                                    "Children": []
+                                  },
+                                  {
+                                    "Name": "FunctionCallParameter",
+                                    "Type": "Clause",
+                                    "Start": 14,
+                                    "End": 28,
+                                    "Children": [
+                                      {
+                                        "Name": "FunctionExpression",
+                                        "Type": "Expression",
+                                        "Start": 14,
+                                        "End": 28,
+                                        "Children": [
+                                          {
+                                            "Value": "UPPER",
+                                            "Name": "FullName",
+                                            "Type": "Name",
+                                            "Start": 14,
+                                            "End": 19,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "FunctionCallParameter",
+                                            "Type": "Clause",
+                                            "Start": 20,
+                                            "End": 27,
+                                            "Children": [
+                                              {
+                                                "Name": "StringLiteral",
+                                                "Type": "Expression",
+                                                "Start": 20,
+                                                "End": 27,
+                                                "Children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "FunctionCallParameter",
+                                    "Type": "Clause",
+                                    "Start": 30,
+                                    "End": 44,
+                                    "Children": [
+                                      {
+                                        "Name": "FunctionExpression",
+                                        "Type": "Expression",
+                                        "Start": 30,
+                                        "End": 44,
+                                        "Children": [
+                                          {
+                                            "Value": "LOWER",
+                                            "Name": "FullName",
+                                            "Type": "Name",
+                                            "Start": 30,
+                                            "End": 35,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "FunctionCallParameter",
+                                            "Type": "Clause",
+                                            "Start": 36,
+                                            "End": 43,
+                                            "Children": [
+                                              {
+                                                "Name": "StringLiteral",
+                                                "Type": "Expression",
+                                                "Start": 36,
+                                                "End": 43,
+                                                "Children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "FunctionCallParameter",
+                                    "Type": "Clause",
+                                    "Start": 46,
+                                    "End": 72,
+                                    "Children": [
+                                      {
+                                        "Name": "FunctionExpression",
+                                        "Type": "Expression",
+                                        "Start": 46,
+                                        "End": 72,
+                                        "Children": [
+                                          {
+                                            "Value": "SUBSTRING",
+                                            "Name": "FullName",
+                                            "Type": "Name",
+                                            "Start": 46,
+                                            "End": 55,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "FunctionCallParameter",
+                                            "Type": "Clause",
+                                            "Start": 56,
+                                            "End": 65,
+                                            "Children": [
+                                              {
+                                                "Name": "StringLiteral",
+                                                "Type": "Expression",
+                                                "Start": 56,
+                                                "End": 65,
+                                                "Children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "Name": "FunctionCallParameter",
+                                            "Type": "Clause",
+                                            "Start": 67,
+                                            "End": 68,
+                                            "Children": [
+                                              {
+                                                "Name": "IntegerLiteral",
+                                                "Type": "Expression",
+                                                "Start": 67,
+                                                "End": 68,
+                                                "Children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "Name": "FunctionCallParameter",
+                                            "Type": "Clause",
+                                            "Start": 70,
+                                            "End": 71,
+                                            "Children": [
+                                              {
+                                                "Name": "IntegerLiteral",
+                                                "Type": "Expression",
+                                                "Start": 70,
+                                                "End": 71,
+                                                "Children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Value": "Result",
+                                "Name": "Identifier",
+                                "Type": "Name",
+                                "Start": 77,
+                                "End": 83,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

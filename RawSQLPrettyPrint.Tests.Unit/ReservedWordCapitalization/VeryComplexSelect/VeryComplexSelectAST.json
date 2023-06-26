@@ -1,0 +1,725 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Nodes": [
+      {
+        "Name": "SelectStatement",
+        "Type": "Statement",
+        "Start": 0,
+        "End": 656,
+        "Children": [
+          {
+            "Name": "Subquery",
+            "Type": "Expression",
+            "Start": 0,
+            "End": 655,
+            "Children": [
+              {
+                "Name": "QueryExpression",
+                "Type": "Expression",
+                "Start": 0,
+                "End": 625,
+                "Children": [
+                  {
+                    "Name": "QuerySpecification",
+                    "Type": "Clause",
+                    "Start": 0,
+                    "End": 625,
+                    "Children": [
+                      {
+                        "Name": "FromClause",
+                        "Type": "Clause",
+                        "Start": 288,
+                        "End": 378,
+                        "Children": [
+                          {
+                            "Name": "TableSource",
+                            "Type": "Clause",
+                            "Start": 293,
+                            "End": 378,
+                            "Children": [
+                              {
+                                "Name": "JoinedTable",
+                                "Type": "Clause",
+                                "Start": 293,
+                                "End": 302,
+                                "Children": [
+                                  {
+                                    "Name": "TableSource",
+                                    "Type": "Clause",
+                                    "Start": 293,
+                                    "End": 302,
+                                    "Children": [
+                                      {
+                                        "Name": "TableNameAlias",
+                                        "Type": "Clause",
+                                        "Start": 293,
+                                        "End": 302,
+                                        "Children": [
+                                          {
+                                            "Value": "Employees",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 293,
+                                            "End": 302,
+                                            "Children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "TableSource",
+                                    "Type": "Clause",
+                                    "Start": 314,
+                                    "End": 325,
+                                    "Children": [
+                                      {
+                                        "Name": "TableNameAlias",
+                                        "Type": "Clause",
+                                        "Start": 314,
+                                        "End": 325,
+                                        "Children": [
+                                          {
+                                            "Value": "Departments",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 314,
+                                            "End": 325,
+                                            "Children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "TableJoin",
+                                    "Type": "Clause",
+                                    "Start": 303,
+                                    "End": 313,
+                                    "Children": []
+                                  },
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 329,
+                                    "End": 378,
+                                    "Children": [
+                                      {
+                                        "Value": "Employees.DepartmentId",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 329,
+                                        "End": 351,
+                                        "Children": []
+                                      },
+                                      {
+                                        "Value": "Departments.DepartmentId",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 354,
+                                        "End": 378,
+                                        "Children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "Top",
+                        "Type": "Clause",
+                        "Start": 16,
+                        "End": 22,
+                        "Children": [
+                          {
+                            "Name": "IntegerLiteral",
+                            "Type": "Expression",
+                            "Start": 20,
+                            "End": 22,
+                            "Children": []
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "SelectList",
+                        "Type": "Clause",
+                        "Start": 23,
+                        "End": 287,
+                        "Children": [
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 23,
+                            "End": 124,
+                            "Children": [
+                              {
+                                "Name": "SearchedCaseExpression",
+                                "Type": "Expression",
+                                "Start": 23,
+                                "End": 106,
+                                "Children": [
+                                  {
+                                    "Name": "StringLiteral",
+                                    "Type": "Expression",
+                                    "Start": 97,
+                                    "End": 102,
+                                    "Children": []
+                                  },
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 33,
+                                    "End": 46,
+                                    "Children": [
+                                      {
+                                        "Value": "Salary",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 33,
+                                        "End": 39,
+                                        "Children": []
+                                      },
+                                      {
+                                        "Name": "IntegerLiteral",
+                                        "Type": "Expression",
+                                        "Start": 42,
+                                        "End": 46,
+                                        "Children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 64,
+                                    "End": 77,
+                                    "Children": [
+                                      {
+                                        "Value": "Salary",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 64,
+                                        "End": 70,
+                                        "Children": []
+                                      },
+                                      {
+                                        "Name": "IntegerLiteral",
+                                        "Type": "Expression",
+                                        "Start": 73,
+                                        "End": 77,
+                                        "Children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "StringLiteral",
+                                    "Type": "Expression",
+                                    "Start": 52,
+                                    "End": 58,
+                                    "Children": []
+                                  },
+                                  {
+                                    "Name": "StringLiteral",
+                                    "Type": "Expression",
+                                    "Start": 83,
+                                    "End": 91,
+                                    "Children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "Value": "SalaryCategory",
+                                "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                                "Type": "Name",
+                                "Start": 110,
+                                "End": 124,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 126,
+                            "End": 135,
+                            "Children": [
+                              {
+                                "Value": "FirstName",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 126,
+                                "End": 135,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 137,
+                            "End": 145,
+                            "Children": [
+                              {
+                                "Value": "LastName",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 137,
+                                "End": 145,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 147,
+                            "End": 229,
+                            "Children": [
+                              {
+                                "Name": "SumFunction",
+                                "Type": "Expression",
+                                "Start": 147,
+                                "End": 210,
+                                "Children": [
+                                  {
+                                    "Value": "Salary",
+                                    "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                    "Type": "Name",
+                                    "Start": 151,
+                                    "End": 157,
+                                    "Children": []
+                                  },
+                                  {
+                                    "Name": "OverClause",
+                                    "Type": "Clause",
+                                    "Start": 159,
+                                    "End": 210,
+                                    "Children": [
+                                      {
+                                        "Name": "PartitionByClause",
+                                        "Type": "Clause",
+                                        "Start": 165,
+                                        "End": 188,
+                                        "Children": [
+                                          {
+                                            "Value": "Department",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 178,
+                                            "End": 188,
+                                            "Children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "Name": "OrderByClause",
+                                        "Type": "Clause",
+                                        "Start": 189,
+                                        "End": 209,
+                                        "Children": [
+                                          {
+                                            "Name": "OrderByClauseItem",
+                                            "Type": "Clause",
+                                            "Start": 198,
+                                            "End": 209,
+                                            "Children": [
+                                              {
+                                                "Value": "Salary",
+                                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                                "Type": "Name",
+                                                "Start": 198,
+                                                "End": 204,
+                                                "Children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Value": "DepartmentTotal",
+                                "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                                "Type": "Name",
+                                "Start": 214,
+                                "End": 229,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "SelectListItem",
+                            "Type": "Clause",
+                            "Start": 231,
+                            "End": 287,
+                            "Children": [
+                              {
+                                "Name": "CountFunction",
+                                "Type": "Expression",
+                                "Start": 231,
+                                "End": 270,
+                                "Children": [
+                                  {
+                                    "Value": "*",
+                                    "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                    "Type": "Name",
+                                    "Start": 237,
+                                    "End": 238,
+                                    "Children": []
+                                  },
+                                  {
+                                    "Name": "OverClause",
+                                    "Type": "Clause",
+                                    "Start": 240,
+                                    "End": 270,
+                                    "Children": [
+                                      {
+                                        "Name": "PartitionByClause",
+                                        "Type": "Clause",
+                                        "Start": 246,
+                                        "End": 269,
+                                        "Children": [
+                                          {
+                                            "Value": "Department",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 259,
+                                            "End": 269,
+                                            "Children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Value": "EmployeeCount",
+                                "Name": "#=zkWaI2ikQommETw7I6fhSfDY=",
+                                "Type": "Name",
+                                "Start": 274,
+                                "End": 287,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "WhereClause",
+                        "Type": "Clause",
+                        "Start": 379,
+                        "End": 543,
+                        "Children": [
+                          {
+                            "Name": "",
+                            "Type": "Expression",
+                            "Start": 385,
+                            "End": 543,
+                            "Children": [
+                              {
+                                "Name": "",
+                                "Type": "Expression",
+                                "Start": 385,
+                                "End": 470,
+                                "Children": [
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 385,
+                                    "End": 431,
+                                    "Children": [
+                                      {
+                                        "Name": "",
+                                        "Type": "Expression",
+                                        "Start": 385,
+                                        "End": 431,
+                                        "Children": [
+                                          {
+                                            "Value": "HireDate",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 385,
+                                            "End": 393,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "StringLiteral",
+                                            "Type": "Expression",
+                                            "Start": 402,
+                                            "End": 414,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "StringLiteral",
+                                            "Type": "Expression",
+                                            "Start": 419,
+                                            "End": 431,
+                                            "Children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "Name": "InPredicate",
+                                        "Type": "Expression",
+                                        "Start": 436,
+                                        "End": 470,
+                                        "Children": [
+                                          {
+                                            "Value": "Title",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 436,
+                                            "End": 441,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "StringLiteral",
+                                            "Type": "Expression",
+                                            "Start": 446,
+                                            "End": 455,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "StringLiteral",
+                                            "Type": "Expression",
+                                            "Start": 457,
+                                            "End": 469,
+                                            "Children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 475,
+                                    "End": 494,
+                                    "Children": [
+                                      {
+                                        "Value": "FirstName",
+                                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                        "Type": "Name",
+                                        "Start": 475,
+                                        "End": 484,
+                                        "Children": []
+                                      },
+                                      {
+                                        "Name": "StringLiteral",
+                                        "Type": "Expression",
+                                        "Start": 490,
+                                        "End": 494,
+                                        "Children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "Name": "ParenthesizedExpression",
+                                "Type": "Expression",
+                                "Start": 499,
+                                "End": 543,
+                                "Children": [
+                                  {
+                                    "Name": "",
+                                    "Type": "Expression",
+                                    "Start": 500,
+                                    "End": 542,
+                                    "Children": [
+                                      {
+                                        "Name": "",
+                                        "Type": "Expression",
+                                        "Start": 500,
+                                        "End": 518,
+                                        "Children": [
+                                          {
+                                            "Value": "LastName",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 500,
+                                            "End": 508,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "StringLiteral",
+                                            "Type": "Expression",
+                                            "Start": 511,
+                                            "End": 518,
+                                            "Children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "Name": "",
+                                        "Type": "Expression",
+                                        "Start": 522,
+                                        "End": 542,
+                                        "Children": [
+                                          {
+                                            "Value": "LastName",
+                                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                            "Type": "Name",
+                                            "Start": 522,
+                                            "End": 530,
+                                            "Children": []
+                                          },
+                                          {
+                                            "Name": "StringLiteral",
+                                            "Type": "Expression",
+                                            "Start": 533,
+                                            "End": 542,
+                                            "Children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "GroupByClause",
+                        "Type": "Clause",
+                        "Start": 544,
+                        "End": 600,
+                        "Children": [
+                          {
+                            "Name": "GroupByClauseItem",
+                            "Type": "Clause",
+                            "Start": 553,
+                            "End": 567,
+                            "Children": [
+                              {
+                                "Value": "SalaryCategory",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 553,
+                                "End": 567,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "GroupByClauseItem",
+                            "Type": "Clause",
+                            "Start": 569,
+                            "End": 578,
+                            "Children": [
+                              {
+                                "Value": "FirstName",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 569,
+                                "End": 578,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "GroupByClauseItem",
+                            "Type": "Clause",
+                            "Start": 580,
+                            "End": 588,
+                            "Children": [
+                              {
+                                "Value": "LastName",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 580,
+                                "End": 588,
+                                "Children": []
+                              }
+                            ]
+                          },
+                          {
+                            "Name": "GroupByClauseItem",
+                            "Type": "Clause",
+                            "Start": 590,
+                            "End": 600,
+                            "Children": [
+                              {
+                                "Value": "Department",
+                                "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                                "Type": "Name",
+                                "Start": 590,
+                                "End": 600,
+                                "Children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "",
+                        "Type": "Expression",
+                        "Start": 608,
+                        "End": 625,
+                        "Children": [
+                          {
+                            "Value": "EmployeeCount",
+                            "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                            "Type": "Name",
+                            "Start": 608,
+                            "End": 621,
+                            "Children": []
+                          },
+                          {
+                            "Name": "IntegerLiteral",
+                            "Type": "Expression",
+                            "Start": 624,
+                            "End": 625,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Name": "OrderByClause",
+                "Type": "Clause",
+                "Start": 626,
+                "End": 655,
+                "Children": [
+                  {
+                    "Name": "OrderByClauseItem",
+                    "Type": "Clause",
+                    "Start": 635,
+                    "End": 655,
+                    "Children": [
+                      {
+                        "Value": "DepartmentTotal",
+                        "Name": "#=zUQ4xn360uqatJS5kVkgAQxA=",
+                        "Type": "Name",
+                        "Start": 635,
+                        "End": 650,
+                        "Children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

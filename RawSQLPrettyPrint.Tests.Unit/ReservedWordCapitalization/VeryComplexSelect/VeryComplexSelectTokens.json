@@ -1,0 +1,1224 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Tokens": [
+      {
+        "Content": "select",
+        "Type": "ReservedKeyword",
+        "Start": 0,
+        "End": 6
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 6,
+        "End": 7
+      },
+      {
+        "Content": "distinct",
+        "Type": "ReservedKeyword",
+        "Start": 7,
+        "End": 15
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 15,
+        "End": 16
+      },
+      {
+        "Content": "top",
+        "Type": "ReservedKeyword",
+        "Start": 16,
+        "End": 19
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 19,
+        "End": 20
+      },
+      {
+        "Content": "10",
+        "Type": "Operator",
+        "Start": 20,
+        "End": 22
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 22,
+        "End": 23
+      },
+      {
+        "Content": "case",
+        "Type": "ReservedKeyword",
+        "Start": 23,
+        "End": 27
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 27,
+        "End": 28
+      },
+      {
+        "Content": "when",
+        "Type": "ReservedKeyword",
+        "Start": 28,
+        "End": 32
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 32,
+        "End": 33
+      },
+      {
+        "Content": "Salary",
+        "Type": "Identifier",
+        "Start": 33,
+        "End": 39
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 39,
+        "End": 40
+      },
+      {
+        "Content": ">",
+        "Type": "Operator",
+        "Start": 40,
+        "End": 41
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 41,
+        "End": 42
+      },
+      {
+        "Content": "5000",
+        "Type": "Operator",
+        "Start": 42,
+        "End": 46
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 46,
+        "End": 47
+      },
+      {
+        "Content": "then",
+        "Type": "ReservedKeyword",
+        "Start": 47,
+        "End": 51
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 51,
+        "End": 52
+      },
+      {
+        "Content": "'High'",
+        "Type": "Literal",
+        "Start": 52,
+        "End": 58
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 58,
+        "End": 59
+      },
+      {
+        "Content": "when",
+        "Type": "ReservedKeyword",
+        "Start": 59,
+        "End": 63
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 63,
+        "End": 64
+      },
+      {
+        "Content": "Salary",
+        "Type": "Identifier",
+        "Start": 64,
+        "End": 70
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 70,
+        "End": 71
+      },
+      {
+        "Content": ">",
+        "Type": "Operator",
+        "Start": 71,
+        "End": 72
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 72,
+        "End": 73
+      },
+      {
+        "Content": "3000",
+        "Type": "Operator",
+        "Start": 73,
+        "End": 77
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 77,
+        "End": 78
+      },
+      {
+        "Content": "then",
+        "Type": "ReservedKeyword",
+        "Start": 78,
+        "End": 82
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 82,
+        "End": 83
+      },
+      {
+        "Content": "'Medium'",
+        "Type": "Literal",
+        "Start": 83,
+        "End": 91
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 91,
+        "End": 92
+      },
+      {
+        "Content": "else",
+        "Type": "ReservedKeyword",
+        "Start": 92,
+        "End": 96
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 96,
+        "End": 97
+      },
+      {
+        "Content": "'Low'",
+        "Type": "Literal",
+        "Start": 97,
+        "End": 102
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 102,
+        "End": 103
+      },
+      {
+        "Content": "end",
+        "Type": "ReservedKeyword",
+        "Start": 103,
+        "End": 106
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 106,
+        "End": 107
+      },
+      {
+        "Content": "as",
+        "Type": "ReservedKeyword",
+        "Start": 107,
+        "End": 109
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 109,
+        "End": 110
+      },
+      {
+        "Content": "SalaryCategory",
+        "Type": "Identifier",
+        "Start": 110,
+        "End": 124
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 124,
+        "End": 125
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 125,
+        "End": 126
+      },
+      {
+        "Content": "FirstName",
+        "Type": "Identifier",
+        "Start": 126,
+        "End": 135
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 135,
+        "End": 136
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 136,
+        "End": 137
+      },
+      {
+        "Content": "LastName",
+        "Type": "Identifier",
+        "Start": 137,
+        "End": 145
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 145,
+        "End": 146
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 146,
+        "End": 147
+      },
+      {
+        "Content": "sum",
+        "Type": "Identifier",
+        "Start": 147,
+        "End": 150
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 150,
+        "End": 151
+      },
+      {
+        "Content": "Salary",
+        "Type": "Identifier",
+        "Start": 151,
+        "End": 157
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 157,
+        "End": 158
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 158,
+        "End": 159
+      },
+      {
+        "Content": "over",
+        "Type": "ReservedKeyword",
+        "Start": 159,
+        "End": 163
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 163,
+        "End": 164
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 164,
+        "End": 165
+      },
+      {
+        "Content": "partition",
+        "Type": "NonReservedKeyword",
+        "Start": 165,
+        "End": 174
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 174,
+        "End": 175
+      },
+      {
+        "Content": "by",
+        "Type": "ReservedKeyword",
+        "Start": 175,
+        "End": 177
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 177,
+        "End": 178
+      },
+      {
+        "Content": "Department",
+        "Type": "Identifier",
+        "Start": 178,
+        "End": 188
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 188,
+        "End": 189
+      },
+      {
+        "Content": "order",
+        "Type": "ReservedKeyword",
+        "Start": 189,
+        "End": 194
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 194,
+        "End": 195
+      },
+      {
+        "Content": "by",
+        "Type": "ReservedKeyword",
+        "Start": 195,
+        "End": 197
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 197,
+        "End": 198
+      },
+      {
+        "Content": "Salary",
+        "Type": "Identifier",
+        "Start": 198,
+        "End": 204
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 204,
+        "End": 205
+      },
+      {
+        "Content": "desc",
+        "Type": "ReservedKeyword",
+        "Start": 205,
+        "End": 209
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 209,
+        "End": 210
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 210,
+        "End": 211
+      },
+      {
+        "Content": "as",
+        "Type": "ReservedKeyword",
+        "Start": 211,
+        "End": 213
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 213,
+        "End": 214
+      },
+      {
+        "Content": "DepartmentTotal",
+        "Type": "Identifier",
+        "Start": 214,
+        "End": 229
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 229,
+        "End": 230
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 230,
+        "End": 231
+      },
+      {
+        "Content": "count",
+        "Type": "Identifier",
+        "Start": 231,
+        "End": 236
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 236,
+        "End": 237
+      },
+      {
+        "Content": "*",
+        "Type": "Operator",
+        "Start": 237,
+        "End": 238
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 238,
+        "End": 239
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 239,
+        "End": 240
+      },
+      {
+        "Content": "over",
+        "Type": "ReservedKeyword",
+        "Start": 240,
+        "End": 244
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 244,
+        "End": 245
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 245,
+        "End": 246
+      },
+      {
+        "Content": "partition",
+        "Type": "NonReservedKeyword",
+        "Start": 246,
+        "End": 255
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 255,
+        "End": 256
+      },
+      {
+        "Content": "by",
+        "Type": "ReservedKeyword",
+        "Start": 256,
+        "End": 258
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 258,
+        "End": 259
+      },
+      {
+        "Content": "Department",
+        "Type": "Identifier",
+        "Start": 259,
+        "End": 269
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 269,
+        "End": 270
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 270,
+        "End": 271
+      },
+      {
+        "Content": "as",
+        "Type": "ReservedKeyword",
+        "Start": 271,
+        "End": 273
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 273,
+        "End": 274
+      },
+      {
+        "Content": "EmployeeCount",
+        "Type": "Identifier",
+        "Start": 274,
+        "End": 287
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 287,
+        "End": 288
+      },
+      {
+        "Content": "from",
+        "Type": "ReservedKeyword",
+        "Start": 288,
+        "End": 292
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 292,
+        "End": 293
+      },
+      {
+        "Content": "Employees",
+        "Type": "Identifier",
+        "Start": 293,
+        "End": 302
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 302,
+        "End": 303
+      },
+      {
+        "Content": "inner",
+        "Type": "ReservedKeyword",
+        "Start": 303,
+        "End": 308
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 308,
+        "End": 309
+      },
+      {
+        "Content": "join",
+        "Type": "ReservedKeyword",
+        "Start": 309,
+        "End": 313
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 313,
+        "End": 314
+      },
+      {
+        "Content": "Departments",
+        "Type": "Identifier",
+        "Start": 314,
+        "End": 325
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 325,
+        "End": 326
+      },
+      {
+        "Content": "on",
+        "Type": "ReservedKeyword",
+        "Start": 326,
+        "End": 328
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 328,
+        "End": 329
+      },
+      {
+        "Content": "Employees",
+        "Type": "Identifier",
+        "Start": 329,
+        "End": 338
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 338,
+        "End": 339
+      },
+      {
+        "Content": "DepartmentId",
+        "Type": "Identifier",
+        "Start": 339,
+        "End": 351
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 351,
+        "End": 352
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 352,
+        "End": 353
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 353,
+        "End": 354
+      },
+      {
+        "Content": "Departments",
+        "Type": "Identifier",
+        "Start": 354,
+        "End": 365
+      },
+      {
+        "Content": ".",
+        "Type": "Dot",
+        "Start": 365,
+        "End": 366
+      },
+      {
+        "Content": "DepartmentId",
+        "Type": "Identifier",
+        "Start": 366,
+        "End": 378
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 378,
+        "End": 379
+      },
+      {
+        "Content": "where",
+        "Type": "ReservedKeyword",
+        "Start": 379,
+        "End": 384
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 384,
+        "End": 385
+      },
+      {
+        "Content": "HireDate",
+        "Type": "Identifier",
+        "Start": 385,
+        "End": 393
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 393,
+        "End": 394
+      },
+      {
+        "Content": "between",
+        "Type": "ReservedKeyword",
+        "Start": 394,
+        "End": 401
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 401,
+        "End": 402
+      },
+      {
+        "Content": "'2022-01-01'",
+        "Type": "Literal",
+        "Start": 402,
+        "End": 414
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 414,
+        "End": 415
+      },
+      {
+        "Content": "and",
+        "Type": "ReservedKeyword",
+        "Start": 415,
+        "End": 418
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 418,
+        "End": 419
+      },
+      {
+        "Content": "'2022-12-31'",
+        "Type": "Literal",
+        "Start": 419,
+        "End": 431
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 431,
+        "End": 432
+      },
+      {
+        "Content": "and",
+        "Type": "ReservedKeyword",
+        "Start": 432,
+        "End": 435
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 435,
+        "End": 436
+      },
+      {
+        "Content": "Title",
+        "Type": "Identifier",
+        "Start": 436,
+        "End": 441
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 441,
+        "End": 442
+      },
+      {
+        "Content": "in",
+        "Type": "ReservedKeyword",
+        "Start": 442,
+        "End": 444
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 444,
+        "End": 445
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 445,
+        "End": 446
+      },
+      {
+        "Content": "'Manager'",
+        "Type": "Literal",
+        "Start": 446,
+        "End": 455
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 455,
+        "End": 456
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 456,
+        "End": 457
+      },
+      {
+        "Content": "'Supervisor'",
+        "Type": "Literal",
+        "Start": 457,
+        "End": 469
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 469,
+        "End": 470
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 470,
+        "End": 471
+      },
+      {
+        "Content": "and",
+        "Type": "ReservedKeyword",
+        "Start": 471,
+        "End": 474
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 474,
+        "End": 475
+      },
+      {
+        "Content": "FirstName",
+        "Type": "Identifier",
+        "Start": 475,
+        "End": 484
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 484,
+        "End": 485
+      },
+      {
+        "Content": "like",
+        "Type": "ReservedKeyword",
+        "Start": 485,
+        "End": 489
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 489,
+        "End": 490
+      },
+      {
+        "Content": "'J%'",
+        "Type": "Literal",
+        "Start": 490,
+        "End": 494
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 494,
+        "End": 495
+      },
+      {
+        "Content": "and",
+        "Type": "ReservedKeyword",
+        "Start": 495,
+        "End": 498
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 498,
+        "End": 499
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 499,
+        "End": 500
+      },
+      {
+        "Content": "LastName",
+        "Type": "Identifier",
+        "Start": 500,
+        "End": 508
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 508,
+        "End": 509
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 509,
+        "End": 510
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 510,
+        "End": 511
+      },
+      {
+        "Content": "'Smith'",
+        "Type": "Literal",
+        "Start": 511,
+        "End": 518
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 518,
+        "End": 519
+      },
+      {
+        "Content": "or",
+        "Type": "ReservedKeyword",
+        "Start": 519,
+        "End": 521
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 521,
+        "End": 522
+      },
+      {
+        "Content": "LastName",
+        "Type": "Identifier",
+        "Start": 522,
+        "End": 530
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 530,
+        "End": 531
+      },
+      {
+        "Content": "=",
+        "Type": "Operator",
+        "Start": 531,
+        "End": 532
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 532,
+        "End": 533
+      },
+      {
+        "Content": "'Johnson'",
+        "Type": "Literal",
+        "Start": 533,
+        "End": 542
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 542,
+        "End": 543
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 543,
+        "End": 544
+      },
+      {
+        "Content": "group",
+        "Type": "ReservedKeyword",
+        "Start": 544,
+        "End": 549
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 549,
+        "End": 550
+      },
+      {
+        "Content": "by",
+        "Type": "ReservedKeyword",
+        "Start": 550,
+        "End": 552
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 552,
+        "End": 553
+      },
+      {
+        "Content": "SalaryCategory",
+        "Type": "Identifier",
+        "Start": 553,
+        "End": 567
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 567,
+        "End": 568
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 568,
+        "End": 569
+      },
+      {
+        "Content": "FirstName",
+        "Type": "Identifier",
+        "Start": 569,
+        "End": 578
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 578,
+        "End": 579
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 579,
+        "End": 580
+      },
+      {
+        "Content": "LastName",
+        "Type": "Identifier",
+        "Start": 580,
+        "End": 588
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 588,
+        "End": 589
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 589,
+        "End": 590
+      },
+      {
+        "Content": "Department",
+        "Type": "Identifier",
+        "Start": 590,
+        "End": 600
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 600,
+        "End": 601
+      },
+      {
+        "Content": "having",
+        "Type": "ReservedKeyword",
+        "Start": 601,
+        "End": 607
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 607,
+        "End": 608
+      },
+      {
+        "Content": "EmployeeCount",
+        "Type": "Identifier",
+        "Start": 608,
+        "End": 621
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 621,
+        "End": 622
+      },
+      {
+        "Content": ">",
+        "Type": "Operator",
+        "Start": 622,
+        "End": 623
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 623,
+        "End": 624
+      },
+      {
+        "Content": "5",
+        "Type": "Operator",
+        "Start": 624,
+        "End": 625
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 625,
+        "End": 626
+      },
+      {
+        "Content": "order",
+        "Type": "ReservedKeyword",
+        "Start": 626,
+        "End": 631
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 631,
+        "End": 632
+      },
+      {
+        "Content": "by",
+        "Type": "ReservedKeyword",
+        "Start": 632,
+        "End": 634
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 634,
+        "End": 635
+      },
+      {
+        "Content": "DepartmentTotal",
+        "Type": "Identifier",
+        "Start": 635,
+        "End": 650
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 650,
+        "End": 651
+      },
+      {
+        "Content": "desc",
+        "Type": "ReservedKeyword",
+        "Start": 651,
+        "End": 655
+      },
+      {
+        "Content": ";",
+        "Type": "Semicolon",
+        "Start": 655,
+        "End": 656
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

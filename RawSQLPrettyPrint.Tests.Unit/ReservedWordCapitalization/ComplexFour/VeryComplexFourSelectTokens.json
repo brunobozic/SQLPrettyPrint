@@ -1,0 +1,132 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Tokens": [
+      {
+        "Content": "SELECT",
+        "Type": "ReservedKeyword",
+        "Start": 0,
+        "End": 6
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 6,
+        "End": 7
+      },
+      {
+        "Content": "col1",
+        "Type": "Identifier",
+        "Start": 7,
+        "End": 11
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 11,
+        "End": 12
+      },
+      {
+        "Content": "FROM",
+        "Type": "ReservedKeyword",
+        "Start": 12,
+        "End": 16
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 16,
+        "End": 17
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 17,
+        "End": 18
+      },
+      {
+        "Content": "SELECT",
+        "Type": "ReservedKeyword",
+        "Start": 18,
+        "End": 24
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 24,
+        "End": 25
+      },
+      {
+        "Content": "col2",
+        "Type": "Identifier",
+        "Start": 25,
+        "End": 29
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 29,
+        "End": 30
+      },
+      {
+        "Content": "FROM",
+        "Type": "ReservedKeyword",
+        "Start": 30,
+        "End": 34
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 34,
+        "End": 35
+      },
+      {
+        "Content": "table1",
+        "Type": "Identifier",
+        "Start": 35,
+        "End": 41
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 41,
+        "End": 42
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 42,
+        "End": 43
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 43,
+        "End": 45
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 45,
+        "End": 46
+      },
+      {
+        "Content": "t1",
+        "Type": "Identifier",
+        "Start": 46,
+        "End": 48
+      },
+      {
+        "Content": ";",
+        "Type": "Semicolon",
+        "Start": 48,
+        "End": 49
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}

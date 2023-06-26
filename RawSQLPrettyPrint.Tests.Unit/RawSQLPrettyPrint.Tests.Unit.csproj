@@ -1,0 +1,106 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AligningTheFirstWordOfClause\SimpleSelect\AligningTheFirstWordOfClauseSelectTest1.json" />
+    <None Remove="AligningTheFirstWordOfClause\SimpleSelect\ListOfTokensSimpleSelect.json" />
+    <None Remove="ReservedWordCapitalization\ComplexFive\VeryComplexFiveSelectAST.json" />
+    <None Remove="ReservedWordCapitalization\ComplexFive\VeryComplexFiveSelectTokens.json" />
+    <None Remove="ReservedWordCapitalization\ComplexFour\VeryComplexFourSelectAST.json" />
+    <None Remove="ReservedWordCapitalization\ComplexFour\VeryComplexFourSelectTokens.json" />
+    <None Remove="ReservedWordCapitalization\ComplexSelect\KeywordCapitalizationSelectTest2.json" />
+    <None Remove="ReservedWordCapitalization\ComplexSelect\ListOfTokensComplexSelect.json" />
+    <None Remove="ReservedWordCapitalization\ComplexSeven\VeryComplexSevenSelectAST.json" />
+    <None Remove="ReservedWordCapitalization\ComplexSeven\VeryComplexSevenSelectTokens.json" />
+    <None Remove="ReservedWordCapitalization\ComplexSix\VeryComplexSixSelectAST.json" />
+    <None Remove="ReservedWordCapitalization\ComplexSix\VeryComplexSixSelectTokens.json" />
+    <None Remove="ReservedWordCapitalization\ComplexThree\VeryComplexThreeSelectAST.json" />
+    <None Remove="ReservedWordCapitalization\ComplexThree\VeryComplexThreeSelectTokens.json" />
+    <None Remove="ReservedWordCapitalization\KeywordCapitalizationSelectTest1.json" />
+    <None Remove="ReservedWordCapitalization\SimpleSelect\ListOfTokensSimpleSelect.json" />
+    <None Remove="ReservedWordCapitalization\VeryComplexSelect\VeryComplexSelectAST.json" />
+    <None Remove="ReservedWordCapitalization\VeryComplexSelect\VeryComplexSelectTokens.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="AligningTheFirstWordOfClause\SimpleSelect\AligningTheFirstWordOfClauseSelectTest1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AligningTheFirstWordOfClause\SimpleSelect\ListOfTokensSimpleSelect.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexFive\VeryComplexFiveSelectAST.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexFive\VeryComplexFiveSelectTokens.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexFour\VeryComplexFourSelectAST.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexFour\VeryComplexFourSelectTokens.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexSelect\KeywordCapitalizationSelectTest2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexSelect\ListOfTokensComplexSelect.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexSeven\VeryComplexSevenSelectAST.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexSeven\VeryComplexSevenSelectTokens.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexSix\VeryComplexSixSelectAST.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexSix\VeryComplexSixSelectTokens.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexThree\VeryComplexThreeSelectAST.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\ComplexThree\VeryComplexThreeSelectTokens.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\SimpleSelect\KeywordCapitalizationSelectTest1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\SimpleSelect\ListOfTokensSimpleSelect.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\VeryComplexSelect\VeryComplexSelectAST.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReservedWordCapitalization\VeryComplexSelect\VeryComplexSelectTokens.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RawSQLPrettyPrint\RawSQLPrettyPrint.csproj" />
+  </ItemGroup>
+
+</Project>

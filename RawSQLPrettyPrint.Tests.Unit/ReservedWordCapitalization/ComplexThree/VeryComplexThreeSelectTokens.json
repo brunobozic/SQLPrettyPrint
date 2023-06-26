@@ -1,0 +1,228 @@
+﻿{
+  "Value": {
+    "Success": true,
+    "ErrorMessage": "",
+    "Tokens": [
+      {
+        "Content": "SELECT",
+        "Type": "ReservedKeyword",
+        "Start": 0,
+        "End": 6
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 6,
+        "End": 7
+      },
+      {
+        "Content": "CONCAT",
+        "Type": "Identifier",
+        "Start": 7,
+        "End": 13
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 13,
+        "End": 14
+      },
+      {
+        "Content": "UPPER",
+        "Type": "Identifier",
+        "Start": 14,
+        "End": 19
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 19,
+        "End": 20
+      },
+      {
+        "Content": "'hello'",
+        "Type": "Literal",
+        "Start": 20,
+        "End": 27
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 27,
+        "End": 28
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 28,
+        "End": 29
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 29,
+        "End": 30
+      },
+      {
+        "Content": "LOWER",
+        "Type": "Identifier",
+        "Start": 30,
+        "End": 35
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 35,
+        "End": 36
+      },
+      {
+        "Content": "'WORLD'",
+        "Type": "Literal",
+        "Start": 36,
+        "End": 43
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 43,
+        "End": 44
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 44,
+        "End": 45
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 45,
+        "End": 46
+      },
+      {
+        "Content": "SUBSTRING",
+        "Type": "Identifier",
+        "Start": 46,
+        "End": 55
+      },
+      {
+        "Content": "(",
+        "Type": "OpenParen",
+        "Start": 55,
+        "End": 56
+      },
+      {
+        "Content": "'example'",
+        "Type": "Literal",
+        "Start": 56,
+        "End": 65
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 65,
+        "End": 66
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 66,
+        "End": 67
+      },
+      {
+        "Content": "2",
+        "Type": "Operator",
+        "Start": 67,
+        "End": 68
+      },
+      {
+        "Content": ",",
+        "Type": "<UNHANDLED TOKEN TYPE>",
+        "Start": 68,
+        "End": 69
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 69,
+        "End": 70
+      },
+      {
+        "Content": "4",
+        "Type": "Operator",
+        "Start": 70,
+        "End": 71
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 71,
+        "End": 72
+      },
+      {
+        "Content": ")",
+        "Type": "CloseParen",
+        "Start": 72,
+        "End": 73
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 73,
+        "End": 74
+      },
+      {
+        "Content": "AS",
+        "Type": "ReservedKeyword",
+        "Start": 74,
+        "End": 76
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 76,
+        "End": 77
+      },
+      {
+        "Content": "Result",
+        "Type": "NonReservedKeyword",
+        "Start": 77,
+        "End": 83
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 83,
+        "End": 84
+      },
+      {
+        "Content": "FROM",
+        "Type": "ReservedKeyword",
+        "Start": 84,
+        "End": 88
+      },
+      {
+        "Content": " ",
+        "Type": "Whitespace",
+        "Start": 88,
+        "End": 89
+      },
+      {
+        "Content": "table1",
+        "Type": "Identifier",
+        "Start": 89,
+        "End": 95
+      },
+      {
+        "Content": ";",
+        "Type": "Semicolon",
+        "Start": 95,
+        "End": 96
+      }
+    ]
+  },
+  "Formatters": [],
+  "ContentTypes": [],
+  "DeclaredType": null,
+  "StatusCode": 200
+}
