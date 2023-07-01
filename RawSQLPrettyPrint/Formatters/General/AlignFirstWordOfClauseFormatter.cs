@@ -91,7 +91,7 @@ namespace RawSQLPrettyPrint.Formatters.General
 
                         string whereIndented = isRightAligned ? $"{Environment.NewLine}{whereIndentation}{whereTrimmed}" : $"{Environment.NewLine}{whereTrimmed}";
 
-                        sql = sql.Remove(whereStart, whereLength).Insert(whereStart- lostCharactersInWhere, whereIndented);
+                        sql = sql.Remove(whereStart, whereLength).Insert(whereStart - lostCharactersInWhere, whereIndented);
                     }
                 }
             }
@@ -99,6 +99,7 @@ namespace RawSQLPrettyPrint.Formatters.General
             return sql;
         }
 
+        // Althernative version that basically cuts around injecting FROM and WHERE and does this replacement at the very end of the "algorithm"
         public string FormatSqlAlt(string sql, AstNode astRoot, bool isRightAligned, WordCaseOption caseOption)
         {
             int offset = 0; // Initialize the offset
