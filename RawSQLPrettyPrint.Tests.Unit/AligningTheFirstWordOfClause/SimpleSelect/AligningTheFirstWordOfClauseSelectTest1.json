@@ -130,7 +130,12 @@
           }
         ]
       }
-    ]
+    ],
+    "Statistics": {
+      "ElapsedMicroseconds": 217,
+      "TotalLinesOfCode": 1,
+      "NonEmptyLinesOfCode": 1
+    }
   },
   "Formatters": [],
   "ContentTypes": [],

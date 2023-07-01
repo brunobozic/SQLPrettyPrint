@@ -13,11 +13,11 @@ namespace RawSQLPrettyPrint.Formatters
             this.formatters = formatters.OrderBy(f => f.Order).ToList();
         }
 
-        public string Format(string sql, AstNode astRoot, List<Token> tokens, WordCaseOption caseOption)
+        public string Format(string sql, AstNode astRoot, List<Token> tokens, WordCaseOption caseOption, FirstWordOfClauseAlignmentOption alignmentOption)
         {
             foreach (var formatter in formatters)
             {
-                sql = formatter.Format(sql, tokens, astRoot, caseOption);
+                sql = formatter.Format(sql, tokens, astRoot, caseOption, alignmentOption);
             }
 
             return sql;

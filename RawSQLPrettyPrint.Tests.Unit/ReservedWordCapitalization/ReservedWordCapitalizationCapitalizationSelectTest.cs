@@ -26,7 +26,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -50,7 +50,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -74,7 +74,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -98,7 +98,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -122,7 +122,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -146,7 +146,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -170,7 +170,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -196,7 +196,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.ReservedWordCapitalization
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Left);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);

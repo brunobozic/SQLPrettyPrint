@@ -26,7 +26,7 @@ namespace RawSQLPrettyPrint.Tests.Unit.AligningTheFirstWordOfClause
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Right);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -63,7 +63,7 @@ ORDER BY per_cnt DESC;";
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Right);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);
@@ -100,7 +100,7 @@ HAVING COUNT(*) >= 2
             var tokens = tokenizationServiceResponsePayload?.Value?.Tokens;
 
             // Act
-            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase);
+            var formattedSql = formatter.Format(inputSql, tokens, astRoot, WordCaseOption.Uppercase, FirstWordOfClauseAlignmentOption.Right);
 
             // Assert
             Assert.Equal(expectedSql, formattedSql);

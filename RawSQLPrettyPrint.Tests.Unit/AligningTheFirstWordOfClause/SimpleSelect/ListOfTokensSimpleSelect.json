@@ -117,7 +117,12 @@
         "Start": 57,
         "End": 58
       }
-    ]
+    ],
+    "Statistics": {
+      "ElapsedMicroseconds": 228,
+      "TotalLinesOfCode": 1,
+      "NonEmptyLinesOfCode": 1
+    }
   },
   "Formatters": [],
   "ContentTypes": [],

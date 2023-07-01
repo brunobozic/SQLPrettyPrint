@@ -8,6 +8,6 @@ namespace RawSQLPrettyPrint.Formatters
     public interface ISqlFormatter
     {
         int Order { get; }
-        string Format(string sql, List<Token> tokens, AstNode astRoot, WordCaseOption caseOption);
+        string Format(string sql, List<Token> tokens, AstNode astRoot, WordCaseOption caseOption, FirstWordOfClauseAlignmentOption alignOption)  ;
     }
 }

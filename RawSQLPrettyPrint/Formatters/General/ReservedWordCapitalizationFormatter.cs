@@ -8,7 +8,7 @@ namespace RawSQLPrettyPrint.Formatters.General
     {
         public int Order => 1;
 
-        public string Format(string sql, List<Token> tokens, AstNode astRoot, WordCaseOption caseOption)
+        public string Format(string sql, List<Token> tokens, AstNode astRoot, WordCaseOption caseOption, FirstWordOfClauseAlignmentOption alignOption)
         {
             var formattedSql = sql;
 
